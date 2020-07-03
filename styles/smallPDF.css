@@ -1,0 +1,54 @@
+header {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.navMenu {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.btDropdownMenu {
+    background-color: rgb(227, 230, 230);
+    border-radius: 8px ;
+    padding: 5px;
+    vertical-align: top;
+}
+.navMenu > li {
+    color: black;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.espaceMembre {
+    display: inline-block;
+    float: right;
+}
+.espaceMembre li {
+    padding-right: 10px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.espaceMembre li:nth-child(1) {
+    border-right: solid 1px blueviolet;
+}
+@media (max-width:1040px) {
+    .nav5 {
+        display: none;
+    }
+}
+@media (max-width:1040px) {
+    .nav5 {
+        display: none;
+    }
+}
+@media (max-width:1000px) {
+    .nav4 {
+        display: none;
+    }
+}
+@media (max-width:960px) {
+    .nav3 {
+        display: none;
+    }
+}
